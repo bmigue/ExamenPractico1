@@ -1,0 +1,14 @@
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\bin\Debug\Examen1.dll
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\bin\Debug\Examen1.pdb
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\obj\Debug\Examen1.csprojAssemblyReference.cache
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\obj\Debug\Examen1.UserControl1.resources
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\obj\Debug\Examen1.csproj.GenerateResource.cache
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\obj\Debug\Examen1.dll
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\Examen1\Examen1\obj\Debug\Examen1.pdb
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\bin\Debug\Examen1.dll
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\bin\Debug\Examen1.pdb
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\obj\Debug\Examen1.csprojAssemblyReference.cache
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\obj\Debug\Examen1.UserControl1.resources
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\obj\Debug\Examen1.csproj.GenerateResource.cache
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\obj\Debug\Examen1.dll
+C:\Users\Miguel Gutierrez\Documents\Cenfotec\8 Cuatri\Componentes\ExamenPractico1\Examen1\Examen1\obj\Debug\Examen1.pdb
