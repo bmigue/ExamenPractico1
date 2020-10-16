@@ -14,11 +14,13 @@ namespace Examen1
     {
         char[] codigo;
         string colores = "ARBNVM";
+        char[] copia;
         int intentos;
         public UserControl1()
         {
             InitializeComponent();
             codigo = new char[4];
+            copia = new char[4];
         }
 
         private void Iniciar_Click(object sender, EventArgs e)
@@ -30,7 +32,6 @@ namespace Examen1
             generatePick();
             intentos = 8;
             textIntentos.Text = intentos.ToString();
-            //trampa.Text = print();
             
         }
         public void generatePick()
@@ -45,6 +46,7 @@ namespace Examen1
         private void Comparar_Click(object sender, EventArgs e)
         {
             char[] cIngresado = textCodigo.Text.ToCharArray();
+            copiarArrray();
             int [] comparacion=compararCodigo(cIngresado);
             if (comparacion[0] < 4)
             {
@@ -60,7 +62,7 @@ namespace Examen1
 
             if (intentos < 1)
             {
-                textResultado.Text = "PERDEDOR";
+                textResultado.Text = "PERDEDOR "+print();
                 disabling();
             }
 
@@ -72,19 +74,21 @@ namespace Examen1
             int[] resultado = new int[2];
             int aciertosParciales = 0;
             int aciertosTotales = 0;
-            for (var i = 0; i < c.Length; i++)
+            for (var i = 0; i < copia.Length; i++)
             {
-                if (c[i] == codigo[i])
+                if (c[i] == copia[i])
                 {
                     aciertosTotales++;
+                    copia[i] = '1';
                 }
                 else
                 {
-                    for (var j = 0; j < codigo.Length; j++)
+                    for (var j = 0; j < copia.Length; j++)
                     {
-                        if (c[i] == codigo[j])
+                        if (c[i] == copia[j])
                         {
                             aciertosParciales++;
+                            copia[j] = '1';
                             break;
                         }
                     }
@@ -102,14 +106,23 @@ namespace Examen1
             Comparar.Enabled = false;
         }
 
-        //public string print()
-        //{
-        //    string resul = "";
-        //    for (var i = 0; i < codigo.Length; i++)
-        //    {
-        //        resul = resul + codigo[i];
-        //    }
-        //    return resul;
-        //}
+        private void copiarArrray()
+        {
+            for(int i=0; i < codigo.Length; i++)
+            {
+                copia[i] = codigo[i];
+            }
+
+        }
+
+        public string print()
+        {
+            string resul = "";
+            for (var i = 0; i < codigo.Length; i++)
+            {
+                resul = resul + codigo[i];
+            }
+            return resul;
+        }
     }
 }
